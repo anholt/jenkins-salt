@@ -1,6 +1,6 @@
-dev:
-    'otc-gfxtest-g33-03*':
-        - slave
+#dev:
+    #'otc-gfxtest-g33-03*':
+        #- slave
 base:
     '*':
         - base
