@@ -14,7 +14,7 @@ runner-packages:
         - refresh: True
         - normalize: False
         - pkgs:
-            # - tsocks ## This is currently removed from testing and breaks if it is required here.
+            - tsocks
             - asciidoc
             - autoconf
             - avahi-daemon
@@ -80,7 +80,6 @@ runner-packages:
             - libglu1-mesa-dev:i386
             - libglu1-mesa:i386
             - libicu-dev
-            - libicu-dev:i386
             - libjpeg8
             - libllvm3.7
             - libllvm3.7:i386
@@ -103,6 +102,7 @@ runner-packages:
             - libudev-dev:i386
             - libvdpau-dev
             - libvdpau-dev:i386
+            - libvulkan-dev
             - libwayland-egl1-mesa
             - libwayland-egl1-mesa:i386
             - libx11-dev
@@ -130,7 +130,6 @@ runner-packages:
             - libxfixes-dev
             - libxfixes-dev:i386
             - libxml2-dev
-            - libxml2-dev:i386
             - libxrender1
             - libxrender1:i386
             - libxshmfence-dev
@@ -140,6 +139,7 @@ runner-packages:
             - linux-libc-dev
             - linux-libc-dev:i386
             - llvm
+            - nfs-common
             - ninja-build
             - openjdk-8-jre
             - pkg-config

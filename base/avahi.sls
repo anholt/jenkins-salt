@@ -1,3 +1,6 @@
+avahi-daemon:
+    pkg.installed: []
+
 /etc/default/avahi-daemon:
   file.managed:
     - source: salt://base/files/avahi/default
@@ -20,6 +23,6 @@ avahi-service:
         - require:
             - pkg: avahi-daemon
         - watch:
-            - file: /etc/avahi-services/ssh.service
+            - file: /etc/avahi/services/ssh.service
             
 # vim: ft=yaml
