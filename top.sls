@@ -1,6 +1,3 @@
-#dev:
-    #'otc-gfxtest-g33-03*':
-        #- slave
 base:
     '*':
         - base
@@ -11,5 +8,8 @@ base:
         - runner
     '*snb*':
         - snb
+dev:
+    'otc-gfxtest-g33-03*':
+        - dev
 
 # vim: ft=yaml
