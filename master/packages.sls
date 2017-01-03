@@ -7,7 +7,6 @@ master-packages:
         - refresh: True
         - normalize: False
         - pkgs:
-            - tsocks
             - screen
             - openjdk-7-jre
             - python-beautifulsoup

@@ -14,7 +14,6 @@ runner-packages:
         - refresh: True
         - normalize: False
         - pkgs:
-            - tsocks
             - asciidoc
             - autoconf
             - avahi-daemon
