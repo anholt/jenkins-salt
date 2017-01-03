@@ -12,5 +12,5 @@ GIT_DAEMON_BASE_PATH=/var/lib
 GIT_DAEMON_DIRECTORY=/var/lib/git
 
 # Additional options that are passed to the Daemon.
-GIT_DAEMON_OPTIONS="--listen=192.168.1.1 --max-connections=64"
+GIT_DAEMON_OPTIONS="--listen=192.168.0.1 --max-connections=64"
 #GIT_DAEMON_OPTIONS=""
