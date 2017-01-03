@@ -1,7 +1,7 @@
 base:
     '*':
         - base
-    'otc-mesa-ci*':
+    'kingsolver*':
         - master
     'otc-gfx*':
         - slave
